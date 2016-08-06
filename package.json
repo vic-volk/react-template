@@ -1,0 +1,22 @@
+{
+  "name": "react-with-bootstrap-2",
+  "version": "1.0.0",
+  "description": "resouce-cloud",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^15.3.0",
+    "react-bootstrap": "^0.30.2",
+    "react-dom": "^15.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "build-js": "browserify src/helloworld.js > dist/helloworld.js",
+    "build": "npm run build-js"
+  },
+  "keywords": [
+    "resource-cloud"
+  ],
+  "author": "A Volkov",
+  "license": "ISC"
+}
